@@ -37,7 +37,8 @@ export default function About() {
             <div className="relative">
               <div className="w-80 h-80 mx-auto bg-gradient-to-br from-cyan-400/20 to-purple-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-cyan-400/30 overflow-hidden">
                 <img
-                  src="/images/moulie-photo.png"
+                  src="https://drive.google.com/file/d/10t12H4CH9b3WlW3aq0VmAvkIA6oObV-e/view?usp=sharing"
+
                   alt="Moulie Malhotra"
                   className="w-72 h-72 object-cover rounded-full"
                 />
