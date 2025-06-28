@@ -34,6 +34,14 @@ export default function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
+            <div className="relative">
+              <div className="w-80 h-80 mx-auto bg-gradient-to-br from-cyan-400/20 to-purple-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border border-cyan-400/30 overflow-hidden">
+                <img
+                  src="/images/moulie-photo.png"
+                  alt="Moulie Malhotra"
+                  className="w-72 h-72 object-cover rounded-full"
+                />
+              </div>
             
               <motion.div
                 className="absolute -top-4 -right-4 w-8 h-8 bg-cyan-400 rounded-full"
