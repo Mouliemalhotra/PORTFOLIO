@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moulie Malhotra - AI/ML Developer</title>
+    <meta name="description" content="Portfolio of Moulie Malhotra - AI/ML Developer, Data Scientist, and Software Engineer">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="dark-theme">
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun sun-icon"></i>
+        <i class="fas fa-moon moon-icon"></i>
+    </div>
+
+    <!-- Resume Download Button -->
+    <div class="resume-download">
+        <a href="./assets/Moulie_Malhotra_Resume.pdf" download="Moulie_Malhotra_Resume.pdf" class="resume-btn">
+            <i class="fas fa-download"></i>
+            <span>Resume</span>
+        </a>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-ring"></div>
+                <div class="logo-center">MM</div>
+            </div>
+            <h1 class="loading-title glow-text">Moulie Malhotra</h1>
+            <p class="loading-subtitle">AI/ML Developer & Innovator</p>
+            <div class="loading-bar">
+                <div class="loading-progress" id="loadingProgress"></div>
+            </div>
+            <div class="loading-percentage" id="loadingPercentage">0%</div>
+        </div>
+        <div class="loading-particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-particles"></div>
+            <div class="grid-lines"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="name-glow" id="nameGlow">Moulie</span>
+                <br>
+                <span class="hero-surname">Malhotra</span>
+            </h1>
+            <p class="hero-subtitle">AI/ML Developer & Data Scientist</p>
+            <div class="hero-social">
+                <a href="https://github.com/Mouliemalhotra" target="_blank" class="social-link" data-tooltip="Mouliemalhotra">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/moulie-malhotra" target="_blank" class="social-link" data-tooltip="moulie-malhotra">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:mouliemalhotra2004@gmail.com" class="social-link" data-tooltip="mouliemalhotra2004@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container led-border">
+                        <img src="./assets/moulie-photo.jpg" alt="Moulie Malhotra" class="profile-image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Passionate AI/ML Developer</h3>
+                    <p>I'm a B.Tech student specializing in Artificial Intelligence and Machine Learning at Guru Gobind Singh Indraprastha University. With a strong academic record (CGPA: 9.2) and hands-on experience in cutting-edge technologies, I'm passionate about creating intelligent solutions that make a real-world impact.</p>
+                    <p>My journey spans from developing AI-powered applications to leading teams in hackathons and serving as President of the GFS Society. I believe in the power of technology to solve complex problems and improve lives.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card led-border">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="stat-value">9.2</div>
+                            <div class="stat-label">CGPA</div>
+                        </div>
+                        <div class="stat-card led-border">
+                            <i class="fas fa-code"></i>
+                            <div class="stat-value">10+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card led-border">
+                            <i class="fas fa-trophy"></i>
+                            <div class="stat-value">3+</div>
+                            <div class="stat-label">Hackathons</div>
+                        </div>
+                        <div class="stat-card led-border">
+                            <i class="fas fa-users"></i>
+                            <div class="stat-value">President</div>
+                            <div class="stat-label">Leadership</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="highlight">Expertise</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category led-border">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Go</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category led-border">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI/ML & Data Science</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Deep Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PyTorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category led-border">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Frameworks & Libraries</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Next.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TailwindCSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category led-border">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Database & Tools</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Google Cloud</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card led-border">
+                    <div class="project-header">
+                        <h3>FIRELOOP</h3>
+                        <div class="project-links">
+                            <a href="https://ad1tyakr.github.io/FireLoop/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>AI-powered entertainment interface with real-time emotional personalization, webcam-based mood detection, and voice-triggered playback for immersive viewing experiences.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">AI</span>
+                        <span class="tech-tag">Voice Recognition</span>
+                    </div>
+                </div>
+
+                <div class="project-card led-border">
+                    <div class="project-header">
+                        <h3>Sign Language Detector</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Mouliemalhotra/SIGN-LANGUAGE-DETECTOR" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>AI-powered real-time ASL-to-speech conversion system achieving 92%+ accuracy, enabling cost-effective 3D hand gesture recognition using single low-resolution camera.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">TensorFlow</span>
+                    </div>
+                </div>
+
+                <div class="project-card led-border">
+                    <div class="project-header">
+                        <h3>Dream-11 Team Predictor</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/Mouliemalhotra/DREAM-11" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Fantasy cricket team suggestion tool leveraging historical data and player statistics to optimize team selection with visual insights and accurate predictions.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">Data Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional <span class="highlight">Experience</span></h2>
+            <div class="experience-timeline">
+                <div class="timeline-item led-border">
+                    <div class="timeline-date">July 2024 - October 2024</div>
+                    <div class="timeline-content">
+                        <h3>Data Research Analyst</h3>
+                        <h4>INIZIO</h4>
+                        <p>Conducted advanced data analysis using SaaS tools and R, applying statistical techniques to derive actionable research insights.</p>
+                        <ul>
+                            <li>Designed robust data collection methodologies ensuring accuracy and reliability</li>
+                            <li>Collaborated on research paper: "Prevalence of Depression and Economic Burden Among Adults with Epilepsy in the United States"</li>
+                            <li>Applied advanced statistical techniques for data interpretation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item led-border">
+                    <div class="timeline-date">July 2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>President</h3>
+                        <h4>GFS Society</h4>
+                        <p>Leading a society focused on developing soft and hard skills including communication, leadership qualities, and team management.</p>
+                        <ul>
+                            <li>Organizing skill development events for students</li>
+                            <li>Building leadership and communication skills</li>
+                            <li>Managing team coordination and event planning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">Certifications</span> & Achievements</h2>
+            <div class="certifications-grid">
+                <div class="cert-card led-border">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Data Science Certification</h3>
+                    <p class="cert-issuer">Microsoft (EDUnet)</p>
+                    <p class="cert-date">December 2024</p>
+                    <div class="cert-skills">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Statistics</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="cert-card led-border">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>SQL Certification</h3>
+                    <p class="cert-issuer">Google</p>
+                    <p class="cert-date">June 2024</p>
+                    <div class="cert-skills">
+                        <span class="skill-tag">Database Management</span>
+                        <span class="skill-tag">Query Optimization</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="cert-card led-border">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Advanced Python</h3>
+                    <p class="cert-issuer">Infotech</p>
+                    <p class="cert-date">May 2024</p>
+                    <div class="cert-skills">
+                        <span class="skill-tag">Advanced Python</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">Algorithms</span>
+                    </div>
+                </div>
+
+                <div class="cert-card led-border">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Programming in C++</h3>
+                    <p class="cert-issuer">Aptech</p>
+                    <p class="cert-date">October 2023</p>
+                    <div class="cert-skills">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">STL</span>
+                    </div>
+                </div>
+
+                <div class="cert-card led-border">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Programming in C</h3>
+                    <p class="cert-issuer">Aptech</p>
+                    <p class="cert-date">October 2023</p>
+                    <div class="cert-skills">
+                        <span class="skill-tag">C Programming</span>
+                        <span class="skill-tag">System Programming</span>
+                        <span class="skill-tag">Memory Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item led-border">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:mouliemalhotra2004@gmail.com">mouliemalhotra2004@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item led-border">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919899721325">+91 9899721325</a>
+                        </div>
+                    </div>
+                    <div class="contact-item led-border">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/moulie-malhotra" target="_blank">moulie-malhotra</a>
+                        </div>
+                    </div>
+                    <div class="contact-item led-border">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Mouliemalhotra" target="_blank">Mouliemalhotra</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Moulie Malhotra. Built with passion using HTML, CSS, and JavaScript.</p>
+            <div class="footer-social">
+                <a href="https://github.com/Mouliemalhotra" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/moulie-malhotra" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:mouliemalhotra2004@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
